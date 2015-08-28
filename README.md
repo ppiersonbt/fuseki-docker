@@ -1,6 +1,10 @@
 ####Create the image
 
 ```
+docker build -t fuseki github.com/ppiersonbt/fuseki-docker.git
+
+or
+
 docker build -t fuseki .
 ```
 
