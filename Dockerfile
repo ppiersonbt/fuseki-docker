@@ -5,7 +5,7 @@
 FROM centos
 MAINTAINER ppierson@bericotechnologies.com
 
-ADD artifacts /tmp/artifacts
+ADD . /tmp/artifacts
 
 RUN yum install git which wget -y
 
